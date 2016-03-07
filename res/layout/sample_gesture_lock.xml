@@ -1,0 +1,11 @@
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res/com.example.lock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.example.lock.GestureLock
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccc"
+         />
+
+</FrameLayout>

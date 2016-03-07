@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context="com.example.lock.MainActivity" >
+
+     <ImageView 
+        android:id="@+id/IV_back"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/lock"
+        />
+
+    <Button
+        android:id="@+id/button_set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_test"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="84dp"
+        android:text="设置图案密码" />
+
+    <Button
+        android:id="@+id/button_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_set"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="145dp"
+        android:text="测试图案密码" />
+
+</RelativeLayout>
